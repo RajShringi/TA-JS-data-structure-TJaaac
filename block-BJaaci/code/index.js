@@ -37,7 +37,7 @@ console.log(movies[movies.length - 1].title);
 // 3. Log the value of the title key in the second movie (index 1) of the array named `movies`
 console.log(movies[1].title);
 // 4. Log the value of the year key in the first movie of the array named `movies`
-console.log(movies[1].year);
+console.log(movies[0].year);
 // 5. Log all the named of actors (key named actors) of the first movie
 for (let i = 0; i < movies[0].actors.length; i++) {
   console.log(movies[0].actors[i]);
@@ -51,9 +51,7 @@ console.log(movies[0].actors[1]);
 // 9. Log the name of the second actor (index 1) of the second movie
 console.log(movies[1].actors[1]);
 // 10. Log the name of the last actor of the thrid movie
-console.log(
-  movies[movies.length - 1].actors[movies[movies.length - 1].actors.length - 1]
-);
+console.log(movies[2].actors[movies[2].actors.length - 1]);
 // 11. Log the name of the second actor (index 1) of the third movie
 console.log(movies[2].actors[1]);
 // 12. Log all the genres of the third movie
