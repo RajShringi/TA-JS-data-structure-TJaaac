@@ -65,9 +65,11 @@ for (house of got.houses) {
 }
 console.log(houseNames);
 // 12. Log the size of people in Starks house
-console.log(got.houses[0].people.length);
+console.log(`size of people in starks house: ${got.houses[0].people.length}`);
 // 13. Log the size of people in Lannisters house
-console.log(got.houses[1].people.length);
+console.log(
+  `size of people in Lannisters house: ${got.houses[1].people.length}`
+);
 
 // 14. Add the name and size of people in an object like {Starks: 4, Lannisters: 6} and log the object
 console.log(
