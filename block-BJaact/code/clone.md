@@ -223,7 +223,7 @@ let clonedPerson = [
 ```js
 function cloneObject(obj) {
   // your code
-  return { ...obj };
+  return JSON.parse(JSON.stringify(obj));
 }
 
 // Run the test below to check your function
